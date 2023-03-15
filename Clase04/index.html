@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">       
+    </head>
+    <body>
+        <h1>INPUTS</h1>
+        <table border="1">
+            <tr><td>Input text</td><td><input type="text"></td> </tr>
+            <tr><td>Input password</td><td><input type="password"></td> </tr>
+            <tr><td>Input Fecha</td><td><input type="date"></td> </tr>          
+        </table>
+        <br>
+        <hr>
+        <br>
+
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            <form action="guardar">
+            
+            <label for="nombre" >Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Escriba Aqui Nombre">
+            <br>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Escriba Aqui su Apellido" required>
+            <br>
+            <br>
+            <label for="fnac">Fecha de Nac.</label>
+            <input type="datetime-local" id="fnac" name="fnac"> 
+            <br>
+            <br>
+            <label for="edad">Edad</label>
+            <input type="text" id="edad" name="edad" readonly value="41"> 
+            <br>
+            <br>
+            <label for="colegio">Colegio Al que Asiste:</label>
+            <input type="text" id="colegio" name="colegio" disabled  > 
+            <br>
+            <br>
+            <label for="alto">Altura</label>
+            <input type="number" id="alto" name="alto" max="250" > 
+            <br>
+            <br>
+            <label for="ecalles">Entre Calles</label>
+            <input type="text" id="ecalles" name="ecalles" maxlength="15" minlength="5">
+            <br>
+            <br>
+            <label for="pass">Apellido:</label>
+            <input type="password" id="pass" name="pass" required pattern="" >
+            <br>
+            <br>
+            <label for="Direccion" >Direccion</label>
+            <textarea placeholder="Escriba Aqui su direccion completa">
+                
+            </textarea>   
+            <br>
+            <br>
+            <label for="corlor" >Color</label>
+            <input type="color" >
+            <br>
+            <br>
+            <label for="archivo" >archivo</label>
+            <input type="file" >
+            <button type="submit">Ingresar</button>
+            <br>
+            <br>
+            <label>Lenguaje</label>
+            <select>                
+                <option value="1">Java</option>
+                <option value="2">PHP</option>
+                <option value="3">Python</option>
+            </select>
+
+            </form>
+
+        </fieldset>
+    </body>
+</html>
