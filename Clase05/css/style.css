@@ -1,0 +1,29 @@
+
+/*Estilo de las etiquetas General*/
+
+body
+{
+    background-color: lightgray;
+    background: url(/img/fondo1.jpg) ;
+    background-size: cover;
+}
+
+
+
+/*Estilo de las etiquetas h1*/
+h1
+{
+    color: blue !important;
+    text-align: center;
+}
+
+
+/*Estilo de las etiquetas inputs*/
+
+
+
+/*Estilo de las etiquetas*/
+
+
+
+
