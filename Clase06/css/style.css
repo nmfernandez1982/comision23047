@@ -1,0 +1,41 @@
+p
+{
+background-color: gray;
+color: white;
+font-size: 20px; /*aun no vimos medidas*/
+}
+
+#textoRojo /*# selector de ID*/
+{
+    color:red;
+}
+
+.TextosAzules /*# selector de Clase*/
+{
+    color: black;
+}
+
+
+
+
+
+/*EJemplo de estilo en cascada
+p
+{
+    background-color: gray;
+    color:white;
+}
+
+
+
+p
+{
+    color: blue;
+}
+
+
+p
+{
+    font-size: 24px;
+}
+*/

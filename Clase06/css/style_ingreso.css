@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+div,fieldset
+{
+    width: 70%;
+    background-color: gray;
+    margin:auto;     
+}
+
+
+
+
+
+#div1
+{
+  height: 50px;  
+  background-color: red;
+
+  margin-top: 20px;
+  
+}
+
+#div2
+{
+  height: 150px;  
+  background-color: blue;
+}
+
+
+
+#div3
+{
+  height: 200px;  
+  background-color: violet;
+}
+
+input
+{
+    color: white;
+}
+
+input[type=text]
+{
+    background-color: blue;
+}
+
+input[type=password]
+{
+background-color: red;
+}
+
+input[type=submit]
+{
+    border: none; /*sin borde*/
+    width: 50px;
+    height: 20px;
+    background-color: red;
+    font-size: 16px;
+    margin-left: 50px;
+    border-radius: 5px;
+    outline: 0;   
+}
+
+
+
+
+
+
+/* --agrupamieto de selectores. 
+
+#div1,#div2,div,.botonRojo
+{
+    text-align: center;
+}
+
+*/
