@@ -1,0 +1,48 @@
+
+header
+{
+    width: 80%;
+    height: 140px;
+    /*background-color: gray;*/
+    background-color: rgb(247, 14, 27);
+    /*background-color: rgba(red, green, blue, alpha);*/
+    background-color: #F70E1B;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 2px 5px 5px lightblue;
+}
+
+header h1
+{
+text-align: center;
+}
+
+main
+{
+    width: 80%;
+    margin: auto;
+    height: 400px;   
+}
+
+
+main section p
+{
+    font-family: 'Alkatra', cursive;
+    font-size: 24px;
+}
+
+
+.TextoResaltado
+{
+    font-family: 'Fasthand', cursive;
+    font-size: 28px;
+}
+
+footer
+{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    height: 0px;
+}
