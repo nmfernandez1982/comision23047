@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#caja1
+{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: fixed;
+    left: 301px;
+    top: 300px;
+}
+
+#caja2
+{
+    width: 300px;
+    height: 1300px;
+    background-color:green;
+    position: relative;
+    left: 602px;
+}
+
+#caja2_hija
+{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    left: 200px;
+}
+
+
+#caja3
+{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+}
+
+
+#caja5
+{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    position: absolute;    
+    z-index: 1;
+    left: 50px;
+}
+
+
+#caja6
+{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    position: absolute;
+    z-index: 3;
+    left: 100px;
+}
+
+#caja7
+{
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    position: absolute;
+    z-index: 2;
+    left: 150px;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++*/
+
+
+body
+{
+    font-size: 32px;
+}
+
+.contenedor
+{
+    margin: auto;
+    background-color: grey;
+    color: white;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.contenedor h1
+{
+    color: #f8b400;
+	margin-bottom: 20px;
+	font-family: 'Merriweather', serif;
+	font-weight: normal;
+    font-size: 1.5em;
+}
+
+.contenedor input
+{
+    padding: 10px 20px;
+	font-family: 'Open Sans', sans-serif;
+	border: none;	
+	background: #617be3;
+	color: #fff;
+	border-radius: 100px;
+
+}
+
+
+
