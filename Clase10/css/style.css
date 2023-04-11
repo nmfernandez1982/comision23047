@@ -1,0 +1,39 @@
+div
+{
+ border: red 3px solid;
+}
+
+/*
+div~p 
+{
+color:red;
+}
+div+p
+{
+    color:red;
+}
+div > p
+{
+    color: red;
+}
+*/
+
+.fuentes
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.textoRojo
+{
+    color:red;
+}
+
+.sombra
+{
+    text-shadow: 2px 2px lightgray;
+}
+
+
+
