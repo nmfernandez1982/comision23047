@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+    </head>
+    <body>
+
+
+        <script>
+            var suma=15;            
+            var valor=1500
+            //contadores o acumuladores
+            //suma=suma+150; //-> forma larda           
+            suma+=valor; //--> forma corta
+            console.log("El valor de suma es:"+suma);
+            
+
+            //funcion parse
+            var numero=parseInt(75.7);
+            console.log(numero);
+
+            var numero2=parseInt("42 años");
+            console.log("Edad :"+numero2);
+
+            var numero3=parseFloat("66.6 porciento");
+            console.log("Edad :"+numero3);
+
+            //array
+
+            var notas = [10,4,1,6,7,1,8,9,10,2,3,5];
+                       // 0 1 2 3 4 5 6 7 8  9 10 11
+            console.log("El valor del array en 0 es "+notas[0]);
+            console.log("El valor del array en 11 es "+notas[11]);
+            console.log("El valor del array en 24 es "+notas[24]);
+
+
+            var apellidos=['Nicolas','Maria','Ceclia','Pedro','Julieta'];
+                         //   0        1        2        3        4
+
+            console.table("EL valor del array en 2 es:"+apellidos[2]);
+            console.table(apellidos);
+
+            var deTodo=['Nicolas',12,true,false,14.4];
+
+            console.table(deTodo);
+
+            var cant=notas.length; 
+
+            console.log("La cantidad de elementos de notas es:"+cant);
+
+            suma=notas[0]+notas[7];
+
+            total=2500;
+            //if 
+
+            /*
+            < menor que 
+            > mayor que
+            <= menor o igual que
+            >= mayot o igual que
+            = operador de asignacion (este se usa para asignar)
+
+            ==  conpara contenido     
+            === conpara contenido 
+
+            !=  distinto de 
+            */
+
+            if(total!==2500) //
+            {
+                //respuesta por true
+                console.log("Son Dinstintos");
+            }
+            else
+            {
+                //respuesta por false
+                console.log("Son Iguales");
+            }
+
+            nota=1;
+            conducta=1;
+
+            if(nota>=4&&conducta>=4)
+            {
+                console.log("Resultado True");
+            }
+            else
+            {
+                console.log("Resultado False");
+            }
+
+            /*
+            V + V = V --true
+            F + V = F
+            V + F = F
+            F + F = F
+            */
+
+
+            if(nota>=4||conducta>=4) // operador o (Or)
+            {
+                console.log("Resultado True");
+            }
+            else
+            {
+                console.log("Resultado False");
+            }
+
+            /*
+            V + V = V (true)
+            V + F = V 
+            F + V = V
+            F + F = F
+            */
+
+
+
+
+
+
+
+
+        </script>   
+    </body>
+</html>
