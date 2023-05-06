@@ -8,6 +8,8 @@
     <body>
 
         <script>
+           
+
             var dia=5;
 
             switch(dia)
@@ -39,6 +41,8 @@
             }
 
 
+            
+
             //bucles
 
 
@@ -50,12 +54,14 @@
             {
                 console.log("While pos.{"+aux+"}");
                 aux++; //aux=aux+1;
-            }          
+            }            
+
             console.log("----------------------");
             do{
               console.log("Do While pos.{"+aux+"}");
               aux++;  //aux=aux+1;
             }while(aux<5);
+
             console.log("----------------------");
 
             var notas=[1,4,1,8,4,1,200,9,3,1,6,4,10,100,3,50,21,2,3,5,5];
@@ -65,9 +71,9 @@
             {
                 console.log("El valor del Array en la pos. {"+x+"}-->"+notas[x])
             }
-
-
             console.log("----------------------");            
+            
+            
             notas.forEach(nota => 
             {
                 console.log("El valor de nota es:"+nota);
