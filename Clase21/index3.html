@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        
+        <p id="eventListener" ></p>
+
+        <button id="escuchar" >Escuchar</button>
+
+        <script>
+            boton=document.getElementById("escuchar");
+            boton.addEventListener('click',funcion1);
+            boton.addEventListener('mouseover',funcion2);
+            boton.addEventListener('mouseout',funcion3);
+
+            function funcion1()
+             {
+                document.getElementById("eventListener").innerHTML+="Evento Click....";
+             }
+
+             
+             function funcion2()
+             {
+                document.getElementById("eventListener").innerHTML+="Evento Mouse sobre....";
+             }
+
+             
+             function funcion3()
+             {
+                document.getElementById("eventListener").innerHTML+="Evento Mouse Fuera....";
+             }
+
+
+        </script>
+    
+    </body>
+</html>

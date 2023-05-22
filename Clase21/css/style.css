@@ -1,0 +1,20 @@
+.original
+{
+width: 80%;
+height: 50px;
+background-color: green;
+color:white;
+font-size: 30px;
+margin: auto;
+}
+
+
+.nueva
+{
+    width: 80%;
+    height: 50px;
+    background-color: red;
+    color:white;
+    font-size: 30px;
+    margin: auto;
+}
